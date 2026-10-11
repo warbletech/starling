@@ -4,14 +4,14 @@
 >
 > **Starling** is a WarbleCloud product (a Kubernetes Platform capability — see
 > <https://warblecloud.com/capabilities>). It sits *above* the public
-> [`warble-tech/starling`](https://github.com/warble-tech/starling) repo, which is only
+> [`warbletech/starling`](https://github.com/warbletech/starling) repo, which is only
 > the **release channel** for the Starling CLI. Source lives in the private
-> `warble-tech/warble-core` repo.
+> `warbletech/warble-core` repo.
 >
 > ```text
 > Starling  (WarbleCloud product / capability)
->    └── warble-tech/starling   ← public repo: release binaries only
->            └── source: warble-tech/warble-core  (private)
+>    └── warbletech/starling   ← public repo: release binaries only
+>            └── source: warbletech/warble-core  (private)
 > ```
 
 > ⚠️ **Verify against actual schema.** The tool names, parameters, and JSON payloads in the
@@ -23,7 +23,7 @@
 > starling mcp --stdio <<< '{"jsonrpc":"2.0","id":1,"method":"tools/list"}'
 > ```
 >
-> or check the tool registry in `warble-tech/warble-core`. Update names/params here to match.
+> or check the tool registry in `warbletech/warble-core`. Update names/params here to match.
 
 ---
 
@@ -31,13 +31,13 @@
 
 **macOS (arm64):**
 ```bash
-curl -L https://github.com/warble-tech/starling/releases/latest/download/starling_0.1.0_macOS_arm64.tar.gz | tar xz
+curl -L https://github.com/warbletech/starling/releases/latest/download/starling_0.1.0_macOS_arm64.tar.gz | tar xz
 sudo mv starling /usr/local/bin/
 starling login
 ```
 
 Pre-built binaries for **macOS** and **Linux** (`amd64` / `arm64`) are on the
-[Releases page](https://github.com/warble-tech/starling/releases/latest). Pick the
+[Releases page](https://github.com/warbletech/starling/releases/latest). Pick the
 archive matching your OS/arch.
 
 **Setup guides:**
