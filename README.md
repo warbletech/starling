@@ -3,17 +3,17 @@
 **MCP server for Kubernetes ops** — scan manifests, read live clusters, remediate from your agent.
 
 This repository is the **public release channel** for the Starling CLI.
-Source code lives in [`warble-tech/warble-core`](https://github.com/warble-tech/warble-core/tree/main/ops/starling).
+Source code lives in [`warbletech/warble-core`](https://github.com/warbletech/warble-core/tree/main/ops/starling).
 
 ## Download
 
-See [Releases](https://github.com/warble-tech/starling/releases) for prebuilt binaries (macOS / Linux / Windows × amd64 / arm64).
+See [Releases](https://github.com/warbletech/starling/releases) for prebuilt binaries (macOS / Linux / Windows × amd64 / arm64).
 
 ## Install
 
 ```bash
 # macOS (Apple Silicon example)
-curl -L https://github.com/warble-tech/starling/releases/latest/download/starling_0.1.0_macOS_arm64.tar.gz | tar xz
+curl -L https://github.com/warbletech/starling/releases/latest/download/starling_0.1.0_macOS_arm64.tar.gz | tar xz
 sudo mv starling /usr/local/bin/
 
 starling login
